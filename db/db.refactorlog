@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="ffcee4ff-b908-4a04-b04f-f7718ccdc10f" ChangeDateTime="01/23/2017 01:58:46">
+    <Property Name="ElementName" Value="[dbo].[Sales].[StateCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateCodeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="078dfce4-28b7-4e0c-ad59-561a4215f342" ChangeDateTime="01/23/2017 01:59:06">
+    <Property Name="ElementName" Value="[dbo].[State].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[State]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="20321d85-f262-473a-8bfb-1c6254c19bdc" ChangeDateTime="01/23/2017 01:59:13">
+    <Property Name="ElementName" Value="[dbo].[Sales].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SalesId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="951762c6-6872-4488-a369-0f69b8cdb2fa" ChangeDateTime="01/23/2017 01:59:48">
+    <Property Name="ElementName" Value="[dbo].[State].[Ab]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[State]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Abbreviation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="04206d1b-846a-48dd-9510-11164f9428ea" ChangeDateTime="01/23/2017 02:01:26">
+    <Property Name="ElementName" Value="[dbo].[Sales].[SalesId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5c5ddb66-beb5-43e7-99f7-a38b17e5dd9b" ChangeDateTime="01/23/2017 02:03:07">
+    <Property Name="ElementName" Value="[dbo].[State].[StateId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[State]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c130b729-e0a6-4870-a6e5-f9d3cf31fca5" ChangeDateTime="01/23/2017 02:03:20">
+    <Property Name="ElementName" Value="[dbo].[State].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[State]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="38431ee5-9381-4d17-b7b5-38751e539fe8" ChangeDateTime="01/23/2017 02:05:31">
+    <Property Name="ElementName" Value="[dbo].[Sales].[StateCodeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8c23f51-a211-44df-8fc7-8657cdd0b513" ChangeDateTime="01/23/2017 04:02:33">
+    <Property Name="ElementName" Value="[dbo].[State].[TaxeRate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[State]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TaxRate" />
+  </Operation>
+</Operations>
